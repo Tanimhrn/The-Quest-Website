@@ -25,11 +25,11 @@ To get a local copy up and running follow these simple steps.
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/Tanimhrn/Quest-Website.git
+    git clone https://github.com/Tanimhrn/The-Quest-Website.git
     ```
 2. **Navigate to the project directory**
     ```bash
-    cd Quest-Website/Quest-Website
+    cd The-Quest-Website
     ```
 3. **Open the project**
    - You can open the project in your favorite code editor, such as Visual Studio Code.
@@ -73,7 +73,7 @@ Contributions are what make the open-source community such an amazing place to l
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
 ```
 
-Feel free to further customize any sections to better fit the specific details and instructions of your project.
-
+Feel free to make any additional changes as needed!
