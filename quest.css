@@ -1,0 +1,469 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #000;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 0 60px 0;
+}
+.container1 {
+  padding-bottom: 11rem;
+}
+.intro h1 {
+  color: #fff;
+  font-size: 11rem;
+  font-weight: 700;
+  line-height: 9.6rem;
+}
+.heading-with-icon {
+  position: relative;
+  font-size: 2.5em;
+  margin: 0 0 20px;
+}
+
+.heading-with-icon::before {
+  content: url("imgs/bolt.png");
+  position: absolute;
+  left: -50px;
+  top: -50px;
+  transform: translateY(20%);
+}
+.intro h1  span,
+.intro-4headers span {
+  background: linear-gradient(270deg, #fe8888 27.16%, #8066ff 97.86%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.intro p {
+  color: #fff;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  font-weight: 600;
+}
+.intro .signup-prompt {
+  display: flex;
+}
+.signup-prompt .btn {
+  color: #fff;
+  background-color: #000;
+  width: 18rem;
+  height: 5.2rem;
+  border: 2px solid #fe8888;
+  margin-left: 3rem;
+  border-radius: 8px;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+  transition: transform 0.3s ease-in;
+}
+.signup-prompt .btn:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.signup-prompt .btn:active {
+  cursor: wait;
+  color: #ffffffa3;
+}
+
+.intro-2 h3 {
+  color: #fff;
+}
+
+.container2 {
+  height: 71.5rem;
+}
+.intro-2 {
+  max-height: 34rem;
+}
+.intro-2 .heading-with-icon2 .smallerbolt {
+  height: 1.4rem;
+  width: 1.4rem;
+}
+.intro-2 h1,
+.intro-4headers h1 {
+  color: #fff;
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 4.2rem;
+}
+.intro-2 h1 span {
+  background: linear-gradient(270deg, #fe8888 27.16%, #8066ff 97.86%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.heading-with-icon2 {
+  display: flex;
+  justify-content: space-between;
+}
+.intro-2headers {
+  align-self: center;
+}
+.intro-2headers h1 {
+  margin-top: 50px;
+}
+.dividing-line {
+  padding: 10px 0 10px 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-width: 1150px;
+}
+.intro-3headers {
+  color: #fff;
+  column-gap: 1rem;
+}
+
+.intro-3headers p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.6rem;
+}
+.intro-3headers h2 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 2.8rem;
+}
+.container2 .intro-3 {
+  height: 23rem;
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+}
+.intro-3headers::before {
+  content: url("imgs/smallerbolt.png");
+}
+.container2 .intro-3 {
+  width: 1100px;
+  display: flex;
+  /* justify-content: space-between; */
+}
+.intro-3headers p {
+  margin-top: 10px;
+  line-height: 3rem;
+}
+.container3 {
+  height: 67rem;
+  margin-bottom: 4rem;
+}
+.intro-4headers {
+  color: #fff;
+}
+.intro-4headers h1 {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.container .intro-4headers .fit {
+margin-top: 10rem;
+}
+.container3 .intro-4headers h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.container3 .intro-4headers h3:nth-of-type(2) {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.intro-4headers h3 span {
+  color: #fe8888;
+}
+.intro-4headers .so-easy {
+  margin-top: 4rem;
+  width: 1100px;
+}
+.btn-2 {
+  color: #fff;
+  background-color: #000;
+  width: 18rem;
+  height: 5.2rem;
+  border: 2px solid #fe8888;
+  margin-top: 3rem;
+  border-radius: 8px;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+  transition: transform 0.3s ease-in;
+}
+.btn-2:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.btn2:active {
+  cursor: wait;
+  color: #ffffffa3;
+}
+.container3 .intro-4headers {
+  margin-top: -15rem;
+}
+.container4 {
+  height: 1049px;
+}
+
+.container4 .intro-3 {
+  display: flex;
+  justify-content: space-between;
+}
+.container5 {
+  height: 800px;
+}
+.container6 #future {
+  color: #fe8888;
+}
+.container6 p {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 2rem;
+  line-height: 3rem;
+}
+
+/*      Tablets      */
+@media (max-width: 768px) {
+  .intro h1 {
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 6.4rem;
+  }
+  body {
+    max-width: 768px;
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 80px 50px 60px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .container2,
+  .container3,
+  .container4,
+  .container5,
+  .container6 {
+    .container {
+      max-width: 768px;
+      margin: 0;
+      padding: 80px 0 60px 0;
+    }
+  }
+  .heading-with-icon::before {
+    content: url("imgs/tablet-bolt.png");
+    position: absolute;
+    left: -40px;
+    top: -35px;
+    transform: translateY(20%);
+  }
+  .intro .signup-prompt {
+    flex-direction: column;
+  }
+  .signup-prompt .btn {
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+  .intro p {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 700;
+  }
+  .intro p .break::after {
+    content: "\A"; /* Inserts a line break */
+    white-space: pre; /* Preserves the line break */
+  }
+  .intro p br {
+    display: none;
+  }
+  .intro-2 {
+    height: 51.8rem;
+  }
+  .heading-with-icon2 {
+    flex-direction: column;
+  }
+  .container2 .intro-3 {
+    height: 60.2rem;
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    margin-bottom: 60.2rem;
+  }
+  .intro-2headers {
+    align-self: normal;
+    margin-bottom: 2rem;
+  }
+  .dividing-line {
+    margin-top: 29rem;
+    width: 7689x;
+  }
+  .intro-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .intro-3headers h2 {
+    padding-top: 0.5rem;
+  }
+
+  .intro-3headers::before {
+    content: url("imgs/medium\ bolt.png");
+  }
+  .container2 .intro-3 {
+    width: 768px;
+    display: flex;
+  }
+  .intro-3headers p {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    line-height: 3rem;
+  }
+  .container3 {
+    height: 67rem;
+    margin-bottom: 4rem;
+  }
+
+  .intro-3headers p .break::after {
+    content: "\A"; /* Inserts a line break */
+    white-space: pre; /* Preserves the line break */
+  }
+  .intro-3headers h2 br {
+    display: none;
+  }
+  .intro-3headers p br {
+    display: none;
+  }
+  .spaced-word {
+    margin-right: 1rem;
+  }
+
+  .container3 {
+    height: 60.2rem;
+    margin-top: 60rem;
+    margin-bottom: 4rem;
+  }
+
+  .intro-4headers h1 .break::after {
+    content: "\A"; /* Inserts a line break */
+    white-space: pre; /* Preserves the line break */
+  }
+  .container4 {
+    margin-top: 7rem;
+    height: 1300px;
+  }
+  .container4 .heading-with-icon2 .intro-2headers {
+    margin-top: -20rem;
+  }
+
+  .exportimage {
+    margin-top: 2px;
+  }
+
+  .btn-2 {
+    margin-bottom: 3rem;
+  }
+  .container4 .intro-3 {
+    margin-top: 2rem;
+  }
+
+  .container6 {
+    display: none;
+  }
+  .intro-2headers h1 {
+    margin-top: 1.5rem;
+  }
+
+  .intro-2headers h1 .break::after {
+    content: "\A"; /* Inserts a line break */
+    white-space: pre; /* Preserves the line break */
+    display: none;
+  }
+}
+
+/*         Mobile       */
+@media (max-width: 500px) {
+  .container6 {
+    display: block;
+  }
+  .container6 .intro-2 .intro-2headers h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .speed {
+    display: none;
+  }
+  .intro p .mobilebreak::after {
+    content: "\A"; /* Inserts a line break */
+    white-space: pre; /* Preserves the line break */
+  }
+  .intro p .break::after {
+    content: "\A"; /* Inserts a line break */
+    white-space: pre; /* Preserves the line break */
+    display: none;
+  }
+
+  .dividing-line {
+    margin-top: 10rem;
+    width: 7689x;
+  }
+  .intro h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 3.8rem;
+  }
+
+  .intro p {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: 700;
+  }
+  .signup-prompt .btn {
+    width: 14rem;
+    height: 4.4rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+  .breaker {
+    display: none;
+  }
+  .intro-2 h1,
+  .intro-4headers h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 3rem;
+  }
+  .intro-3headers h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 2.2rem;
+  }
+  .intro-3headers p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+
+  .container5 {
+    height: 723px;
+  }
+  .container5 .intro-2headers {
+    margin-top: -20rem;
+  }
+  .container6 p:nth-of-type(1) {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 600;
+    display: none;
+  }
+  .container6 p:nth-of-type(2) {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 600;
+}
+}
