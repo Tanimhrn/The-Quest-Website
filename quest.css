@@ -388,8 +388,19 @@ margin-top: 10rem;
 
 /*         Mobile       */
 @media (max-width: 500px) {
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px 10px 20px 40px;
+    overflow-x: hidden;
+  }
+  .container4 {
+    margin-top: 15rem;
+  }
   .container6 {
     display: block;
+    margin-top: -10rem;
+    margin-bottom: -15rem;
   }
   .container6 .intro-2 .intro-2headers h1 {
     font-size: 3rem;
@@ -466,4 +477,13 @@ margin-top: 10rem;
     line-height: 2.6rem;
     font-weight: 600;
 }
+.heading-with-icon::before {
+  content: url("imgs/tabletfirstbolt.png");
+  position: absolute;
+  left: -25px;
+  top: -20px;
+  transform: translateY(20%);
+
+}
+
 }
