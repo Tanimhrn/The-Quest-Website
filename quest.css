@@ -39,7 +39,7 @@ body {
   top: -50px;
   transform: translateY(20%);
 }
-.intro h1  span,
+.intro h1 span,
 .intro-4headers span {
   background: linear-gradient(270deg, #fe8888 27.16%, #8066ff 97.86%);
   -webkit-background-clip: text;
@@ -165,7 +165,7 @@ body {
   margin-bottom: 2rem;
 }
 .container .intro-4headers .fit {
-margin-top: 10rem;
+  margin-top: 10rem;
 }
 .container3 .intro-4headers h3 {
   font-size: 1.2rem;
@@ -389,10 +389,11 @@ margin-top: 10rem;
 /*         Mobile       */
 @media (max-width: 500px) {
   .container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     max-width: 500px;
-    margin: 0 auto;
-    padding: 50px 10px 20px 40px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   .container4 {
     margin-top: 15rem;
@@ -476,14 +477,12 @@ margin-top: 10rem;
     font-size: 1.6rem;
     line-height: 2.6rem;
     font-weight: 600;
-}
-.heading-with-icon::before {
-  content: url("imgs/tabletfirstbolt.png");
-  position: absolute;
-  left: -25px;
-  top: -20px;
-  transform: translateY(20%);
-
-}
-
+  }
+  .heading-with-icon::before {
+    content: url("imgs/tabletfirstbolt.png");
+    position: absolute;
+    left: -25px;
+    top: -20px;
+    transform: translateY(20%);
+  }
 }
