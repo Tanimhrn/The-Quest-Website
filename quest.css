@@ -8,6 +8,7 @@
 }
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 body {
   background-color: #000;
@@ -393,7 +394,7 @@ body {
     justify-content: center;
     align-content: center;
     max-width: 500px;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
   }
   .container4 {
     margin-top: 15rem;
@@ -459,6 +460,8 @@ body {
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 2.2rem;
+    white-space: normal;
+    word-break: break-word;
   }
 
   .container5 {
