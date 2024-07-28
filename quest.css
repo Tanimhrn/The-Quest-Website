@@ -395,7 +395,7 @@ body {
     align-content: center;
     max-width: 500px;
     overflow-x: hidden;
-    padding: 2.5rem 3rem;
+    padding: 2.5rem 2.34rem;
   }
   .container4 {
     margin-top: 15rem;
@@ -424,7 +424,7 @@ body {
 
   .dividing-line {
     margin-top: 10rem;
-    width: 7689x;
+    max-width: 450px;
   }
   .intro h1 {
     font-size: 4rem;
@@ -459,10 +459,14 @@ body {
   }
   .intro-3headers p {
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 2.2rem;
+    padding-bottom: 1rem;
     white-space: normal;
     word-break: break-word;
+  }
+  .container2 .intro-3headers p:nth-child(3) {
+    padding-bottom: 2rem;
   }
 
   .container5 {
