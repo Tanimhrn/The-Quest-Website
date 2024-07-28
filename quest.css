@@ -395,6 +395,7 @@ body {
     align-content: center;
     max-width: 500px;
     overflow-x: hidden;
+    padding: 2.5rem 3rem;
   }
   .container4 {
     margin-top: 15rem;
@@ -487,5 +488,12 @@ body {
     left: -25px;
     top: -20px;
     transform: translateY(20%);
+  }
+  .container2,
+  .container3,
+  .container4,
+  .container5,
+  .container6 {
+    padding-top: 1rem;
   }
 }
